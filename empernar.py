@@ -1,5 +1,3 @@
-alan nati lucas
-
 import sqlite3
 base = sqlite3.connect('c:\sqlite\empernar.db')
 cur = base.cursor()
