@@ -10,3 +10,4 @@ def agregarCliente():
    dni = input('Ingrese su dni: ')
    cur.execute('INSERT INTO CLIENTES (NOMBRE, DNI) VALUES("{}", "{}")'.format(sel, dni))
    base.commit()
+
