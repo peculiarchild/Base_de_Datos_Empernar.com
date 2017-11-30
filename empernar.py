@@ -1,6 +1,6 @@
 import sqlite3
 import user_choice
-import add_client
+#import add_client???
 import welcome
 
 base = sqlite3.connect('d:\sqlite\empernar1.db')
