@@ -1,6 +1,6 @@
 import sqlite3
 
-base = sqlite3.connect('d:\sqlite\empernar1.db')
+base = sqlite3.connect('C:\sqlite\empernar.db')
 cur = base.cursor()
 
 

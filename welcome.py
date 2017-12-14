@@ -2,14 +2,14 @@ import sqlite3
 import user_choice
 import add_client
 
-base = sqlite3.connect('d:\sqlite\empernar1.db')
+base = sqlite3.connect('c:\sqlite\empernar.db')
 cur = base.cursor()
 
 def bienvenida():
 
     print("Bienvenido/a Sr/a. cliente: ")
-    print("1 - Ingrese '1' para iniciar sesión")
-    print("1 - Ingrese '2' para registrarse")
+    print("1 - Ingrese '1' para iniciar sesión.")
+    print("1 - Ingrese '2' para registrarse.")
 
     choice = int(input())
 
